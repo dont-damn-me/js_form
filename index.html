@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="docs/style.css">
+    <title>Goodman</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="better-call-saul">
+    <img src="img/bettercallsaul.png" alt="">
+</div>
+<div class="container">
+    <button id="openFormButton">Проблемы с законом?</button>
+    <div id="popupForm" style="display: none;">
+        <button id="closeFormButton">Закрыть форму</button>
+        <section class="formcarry-container">
+            <form action="https://formcarry.com/s/vCOiAcR8vp" method="POST" enctype="multipart/form-data">
+
+                <div class="formcarry-block">
+                    <input type="text" name="name" id="fc-generated-1-name" placeholder="ФИО" />
+                </div>
+
+                <div class="formcarry-block">
+                    <input type="email" name="email" id="fc-generated-1-email" placeholder="Электронная почта" />
+                </div>
+
+                <div class="formcarry-block">
+                    <input type="text" name="phone" id="fc-generated-1-name" placeholder="Номер телефона" />
+                </div>
+
+                <div class="formcarry-block">
+                    <input type="text" name="company" id="fc-generated-1-name" placeholder="Обвинение" />
+                </div>
+
+                <div class="formcarry-block">
+                    <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Сообщение"></textarea>
+                </div>
+
+                <div class="formcarry-block">
+                    <label for="fc-generated-1-message">Соглашаюсь на обработку данных</label>
+                    <input type="checkbox" required="true" name="terms" id="terms">
+                </div>
+
+                <div class="formcarry-block">
+                    <button id="send" type="submit">Отправить</button>
+                </div>
+
+            </form>
+        </section>
+    </div>
+    <script src="docs/index.js"></script>
+</div>
+</body>
+</html>
